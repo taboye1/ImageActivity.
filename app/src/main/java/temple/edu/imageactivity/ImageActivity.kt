@@ -29,10 +29,9 @@ import androidx.recyclerview.widget.RecyclerView
 
     }
 
-      override fun onItemClicked(name: String, image: Int) {
+       fun onItemClicked(name: String, image: Int) {
          PetName.text =name;dogImage.setImageResource(image)
      }
-
 
 
  }
